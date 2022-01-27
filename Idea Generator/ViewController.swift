@@ -23,6 +23,27 @@ class ViewController: UIViewController
     {
         let endArray = wordideas.count - 1
         var randomWordOne = Int.random(in: 0...endArray)
+        var randomWordTwo = Int.random(in: 0...endArray)
+        var randomWordThree = Int.random(in: 0...endArray)
+        var randomWordFour = Int.random(in: 0...endArray)
+        
+        var x = 0
+        while x == 0
+        {
+            
+            if randomWordOne == randomWordTwo
+            {
+                
+            if randomWordThree == randomWordFour
+                
+            }
+            
+        }
+        
+        var wordOne = wordideas[randomWordOne]
+        var wordTwo = wordideas[randomWordTwo]
+        var wordThree = wordideas[randomWordThree]
+        var wordFour = wordideas[randomWordFour]
     }
     
     

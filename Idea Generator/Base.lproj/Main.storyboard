@@ -142,6 +142,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buttonTwo" destination="xQC-lT-1FW" id="Pmz-eb-S98"/>
                         <outlet property="generateButtonOutlet" destination="yTp-xy-hiG" id="Buc-l1-x9p"/>
                         <outlet property="wordFour" destination="hij-4s-gIJ" id="q6I-dT-yeI"/>
                         <outlet property="wordOne" destination="lvR-qz-9Ay" id="Nck-KZ-cyw"/>

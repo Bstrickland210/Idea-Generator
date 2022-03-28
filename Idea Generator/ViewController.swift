@@ -23,6 +23,8 @@ class ViewController: UIViewController
     @IBOutlet weak var generateButtonOutlet: UIButton!
     
     
+    
+    
     @IBAction func generateButton(_ sender: Any)
     {
         let endArray = wordideas.count - 1
@@ -75,11 +77,8 @@ class ViewController: UIViewController
             {
             x = 1
             }
-            generateButtonOutlet.isEnabled = false
-            Timer.scheduledTimer(withTimeInterval: 2.0, repeats: false)
-                {timer in
-                self.generateButtonOutlet.isEnabled = true
-            }
+          
+            
         }
         
         var wordOneFinal = wordideas[randomWordOne]
@@ -92,6 +91,15 @@ class ViewController: UIViewController
         wordThree.text = wordThreeFinal
         wordFour.text = wordFourFinal
         
+        generateButtonOutlet.isEnabled = false
+        Timer.scheduledTimer(withTimeInterval: 2.0, repeats: false)
+            {timer in
+            self.generateButtonOutlet.isEnabled = true
+    
+   
+        }
+    
+   
     }
     
     

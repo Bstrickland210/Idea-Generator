@@ -106,7 +106,7 @@ class ViewController: UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        buttonTwo.isHidden = true 
+      //  buttonTwo.isHidden = true
 
     }
 }
